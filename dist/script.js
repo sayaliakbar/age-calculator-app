@@ -2,9 +2,7 @@
 function handleSubmit(event) {
   event.preventDefault(); // Prevents default form submission
 
-  if (validateFields()) {
-    console.log("Form submitted successfully!");
-  }
+  validateFields(); // Validates input fields
 }
 
 // Validates input fields for required, range, and logical checks
